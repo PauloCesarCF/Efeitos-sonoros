@@ -69,6 +69,10 @@ document.addEventListener('keypress', function(event){
         const teste = document.querySelector('.inentendivelAudio');
         teste.currentTime = 0;
         teste.play();
+    }else if(event.key === 'h'){
+        const teste = document.querySelector('.helloAudio');
+        teste.currentTime = 0;
+        teste.play();
     }
 });
 
